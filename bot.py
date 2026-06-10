@@ -4,7 +4,7 @@ import os
 import random
 
 # Токен будет браться из переменной окружения
-TOKEN = os.environ.get("8805597794:AAGEeLLVkoqZuTN1UghwtkMgFiFjBlqxhpY")
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 DATA_FILE = "places.json"
 
